@@ -22,7 +22,7 @@ public class Customer {
 	private String name;
 	@Column(name="email")
 	private String email;
-	@Column(name="create_dt")
+	@Column(name="created_dt")
 	private LocalDate createDt;
 	
 	@Column(name="mobile_number")

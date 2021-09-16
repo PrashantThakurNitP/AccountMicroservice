@@ -23,7 +23,7 @@ public class Accounts {
 	private String accountType;
 	@Column(name="branch_address")
 	private String branchAddress;
-	@Column(name="create_dt")
+	@Column(name="created_dt")
 	private LocalDate createDt;
 
 }
